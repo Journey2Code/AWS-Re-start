@@ -1,0 +1,7 @@
+animal1 = input("What is your first animal? ")
+animal2 = input("What is your second animal? ")
+
+if animal1 < animal2:
+    print("The animal that comes first alphabetically is", animal1)
+else:
+    print("The animal that comes first alphabetically is", animal2)
