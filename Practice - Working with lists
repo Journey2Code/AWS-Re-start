@@ -1,0 +1,8 @@
+list1 = list(range(1,51))
+print(list1)
+
+for i in range(51,61) :
+    list1.append(i)
+print(list1)
+print(list(range(2,61,2)))
+print(list(range(3,62,3)))
