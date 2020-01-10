@@ -1,0 +1,31 @@
+"""
+
+
+
+phonebook = {
+    'Luke' : '07838384712',
+    'John' : '07885672142',
+    'James' : '0793367421',
+    'Carlos' : '0796747889',
+    'Jasmine' : '07832124564',
+    'Patrick' : '07834112783',
+    'Daniel' : '07856978213',
+    'Cindy' : '078469234124',
+    'Paul' : '0796734327684',
+    'Ronald' : '07896753281',
+    'Charles' : '07951034782',
+    'Lucas' : '07835266161',
+    'Mark' : '07893826127',
+    'Sarah' : '078263562512',
+    'Jason' : '07892635478',
+    'Lucian' : '07826345126',
+    'Jasmine' : '07826353526',
+    'Rashid' : '07836452617',
+    'Morrison' : '07826346278',
+    'Harris' : '07928246271',
+    'Joseph' : '07846237272'
+}
+contactnames = list(phonebook.keys())
+contactnumbers = list(phonebook.values())
+print(contactnumbers[0:20:2])
+print(contactnames[15:20])
