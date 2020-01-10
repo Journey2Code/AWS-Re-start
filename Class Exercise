@@ -1,0 +1,10 @@
+# Ask the user for two numbers:
+number1 = float(input("Please enter your first number? "))
+number2 = float(input("Please enter your second number? "))
+
+#Multiplies the numbers together:
+answer2 = float(number1) * float(number2)
+
+#Prints the answer in both an integer and a float:
+print(answer2)
+print(int(answer2))
